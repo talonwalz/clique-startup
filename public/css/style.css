@@ -1,3 +1,8 @@
+@import url("https://use.typekit.net/nsk5vzf.css");
+
+* {
+	font-family: 'calder-lc';
+}
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -76,6 +81,7 @@ hr {
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
+	font-family: "calder-lc";
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
@@ -98,15 +104,19 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+
 	content: "";
 	transition: width 0.2s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
+
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
+	
 }
 .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
 	display: block !important;
@@ -115,7 +125,8 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important; */
+	background: linear-gradient(to right, #FF6100, #FF8C00) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -124,10 +135,14 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	/* border-color: #608dfd; */
+	border-color: #FF6100;
+
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	/* background-color: #608dfd; */
+	background-color: #FF6100;
+
 }
 .section-title {
 	margin-bottom: 70px;
@@ -141,7 +156,8 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	/* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +171,14 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	/* background-color: #5ca9fb; */
+	/* Added */
+	background-color: #FF8C00;
+
+	/* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+	/* Added */
+	background-image: linear-gradient(to right, #FF6100, #FF8C00);
+
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -169,7 +191,10 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	/* background-color: #6372ff; */
+	/* Added */
+	background-color: #FF6100;
+
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -236,7 +261,9 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -255,7 +282,9 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	/* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -289,7 +318,9 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+
 	color: #fff;
 }
 #services .service-desc {
@@ -313,7 +344,9 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to left, #FF6100, #FF8C00);
+
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -347,7 +380,9 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	/* background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -434,7 +469,9 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -554,7 +591,7 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	color: #FF6100;
 	background: #fff;
 }
 /* Footer Section*/
@@ -567,10 +604,10 @@ color: #777;
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #FF6100;
 }
 #footer a:hover {
-	border-bottom: 2px solid #608dfd;
+	border-bottom: 2px solid #FF6100;
 }
 
 @media (max-width: 768px) {
