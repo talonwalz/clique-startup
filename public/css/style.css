@@ -82,10 +82,10 @@ hr {
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-family: "calder-lc";
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
@@ -212,6 +212,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
+	/* background: url(../img/portfolio/bubblewithwords.png) center center no-repeat; */
+
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -222,11 +224,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'calder-lc', 'Raleway', sans-serif;
 	color: #fff;
 	font-size: 82px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
@@ -313,13 +315,17 @@ header .intro-text {
 }
 #about p {
 	line-height: 24px;
-	margin: 30px 0;
+	margin: 10% 0;
 }
 /* Services Section */
 #services {
 	padding: 100px 0;
 	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
 	background: linear-gradient(to right, #FF6100, #FF8C00);
+	/* background: linear-gradient(to right, #0078B3, #00ACFF); */
+	background: #f6f6f6;
+	/* background: #00008010; */
+	/* background: #0080FF80; */
 
 	color: #fff;
 }
@@ -327,12 +333,13 @@ header .intro-text {
 	margin: 10px 10px 20px;
 }
 #services h2 {
-	color: #fff;
+	color: black;
 }
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255,255,255,.3);
+	background: linear-gradient(to right, #FF6100, #FF8C00);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -345,19 +352,22 @@ header .intro-text {
 	height: 120px;
 	padding: 40px 0;
 	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-	background: linear-gradient(to left, #FF6100, #FF8C00);
+	background: linear-gradient(to right, #FF6100, #FF8C00);
+	/* background: linear-gradient(to left, #0078B3, #00ACFF); */
+
 
 	border-radius: 50%;
-	color: #fff;
+	color: white;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: #fff;
+	color: black;
 }
 #services p {
 	color: rgba(255,255,255,.75);
+	color: black;
 }
 #services .service-desc {
 	margin-bottom: 40px;
@@ -451,6 +461,8 @@ header .intro-text {
 /* Team Section */
 #team {
 	padding: 100px 0;
+	background: #f6f6f6;
+
 }
 #team h4 {
 	margin: 5px 0;
@@ -610,8 +622,23 @@ color: #777;
 	border-bottom: 2px solid #FF6100;
 }
 
+
+
+/* New CSS */
+.clique-logo {
+	height: 50px;
+	width: auto;
+}
+
+.no-shadow {
+	box-shadow: 0 0 0 0 !important;
+}
+
+
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;
 }
 }
+
+

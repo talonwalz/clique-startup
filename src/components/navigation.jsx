@@ -3,6 +3,11 @@ export const Navigation = (props) => {
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
+          <img 
+            src="img/portfolio/bubblewithwords.png"
+            alt="clique logo"
+            className="Clique-logo"
+          />
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -15,6 +20,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
+          
           <a className='navbar-brand page-scroll' href='#page-top'>
             Clique the App
           </a>{' '}
@@ -45,11 +51,12 @@ export const Navigation = (props) => {
                 Gallery
               </a>
             </li>
-            <li>
+            {/* Will add after launch */}
+            {/* <li>
               <a href='#testimonials' className='page-scroll'>
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#team' className='page-scroll'>
                 Team

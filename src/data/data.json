@@ -2,11 +2,11 @@
     "Header": {
 
         "title": "Clique the App",
-        "paragraph": "Clique is a social shopping platform meant to connect everyone to everything."
+        "paragraph": "The new platform. Making online shopping a social event like shopping at a mall. Create a Wishlist, build your closet, shop with friends, and share with others all in the same place."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "On Clique we have created a platform that will allow you to visit all of your favorite stores while staying connected with your loved ones no matter where in the world you actually are. Chat, shop, and get rewarded for doing it!",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -21,34 +21,34 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-list",
+            "name": "Wish List",
+            "text": "See something you like?  Add it to your wish list for your friends and family to buy on your birthday or holiday."
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Closet",
+            "text": "Keep up to date with the latest trends and show off your fashion to your friends.  When you purchase anything you can now put it in your closet for your friends to see."
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-comments-o",
+            "name": "Messaging",
+            "text": "Stay connected while shopping anywhere at any time.  Message, voice chat, or video chat with your friends and family to help you know what to get next."
         },
         {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-gift",
+            "name": "Rewards",
+            "text": "You can do your regular shopping, but get rewarded for it! The more you shop the more chances you will get to win."
         },
         {
             "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Posts",
+            "text": "Can’t decide what to get or simply have something to say?  Go ahead and let everyone know."
         },
         {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-users",
+            "name": "Join Friends",
+            "text": "Make sure that you join your friends’ cliques.  Stay up to date with what they are doing."
         }
 
 
@@ -87,50 +87,50 @@
     "Team": [{
             "img": "img/team/01.jpg",
             "name": "Benjamin Plante",
-            "job": "Director"
+            "job": "Executive Director"
         },
         {
             "img": "img/team/02.jpg",
-            "name": "Brady Plante",
-            "job": "Director"
+            "name": "Brady Galloway",
+            "job": "Director of Operations"
         }, {
             "img": "img/team/03.jpg",
             "name": "Tanner Roberts",
-            "job": "Senior iOS Developer"
+            "job": "Director of Product Development"
         },
         {
             "img": "img/team/04.jpg",
             "name": "Talon Walz",
-            "job": "Web Developer"
+            "job": "Director of Web Development"
         }
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
+        "phone": "+1 385 335 8514",
+        "email": "contact@cliquetheapp.com",
+        "facebook": "https://www.facebook.com/cliquetheapp-110481197967770/?ref=page_internal",
         "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "instagram": "https://www.instagram.com/cliquetheapp/"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-cart-arrow-down",
+            "title": "Social Shopping",
+            "text": "Buy your favorite things from your favorite stores with your favorite friends and family members. The new way to shop!"
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-list",
+            "title": "Wish List",
+            "text": "See something you like? Add it to your wish list for your friends and family to buy on your birthday or holiday."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Rewards",
+            "text": "You can do your regular shopping, but get rewarded for it! The more you shop the more chances you will get to win."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-user",
+            "title": "Clique Profile",
+            "text": "Create a profile and join Cliques with your friends. See the wish lists and closets of whoever is in your Clique."
         }
     ]
 }
