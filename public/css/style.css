@@ -268,6 +268,22 @@ header .intro-text {
 
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+
+.bottom svg {
+	position: relative;
+	top: 5px;
+}
+
+.center svg {
+	position: relative;
+	left: 1px;
+}
+
+.center svg {
+	position: relative;
+	bottom: 5px;
+}
+
 /* About Section */
 #about {
 	padding: 100px 0;

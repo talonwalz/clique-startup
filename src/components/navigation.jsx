@@ -1,4 +1,12 @@
+import React, {useState} from "react"
+
 export const Navigation = (props) => {
+
+  const [ menu, setMenu ] = useState("open");
+  const toggleMenu = () => {
+    setMenu("closed")
+  }
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -29,6 +37,8 @@ export const Navigation = (props) => {
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
+          data-toggle='collapse'
+          data-target='#bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>

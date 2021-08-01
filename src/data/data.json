@@ -21,32 +21,32 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-list",
+            "icon": "fa center",
             "name": "Wish List",
             "text": "See something you like?  Add it to your wish list for your friends and family to buy on your birthday or holiday."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
+            "icon": "fa center",
             "name": "Closet",
             "text": "Keep up to date with the latest trends and show off your fashion to your friends.  When you purchase anything you can now put it in your closet for your friends to see."
         },
         {
-            "icon": "fa fa-comments-o",
+            "icon": "fa bottom",
             "name": "Messaging",
             "text": "Stay connected while shopping anywhere at any time.  Message, voice chat, or video chat with your friends and family to help you know what to get next."
         },
         {
-            "icon": "fa fa-gift",
+            "icon": "fa",
             "name": "Rewards",
             "text": "You can do your regular shopping, but get rewarded for it! The more you shop the more chances you will get to win."
         },
         {
-            "icon": "fa fa-plane",
+            "icon": "fa",
             "name": "Posts",
             "text": "Can’t decide what to get or simply have something to say?  Go ahead and let everyone know."
         },
         {
-            "icon": "fa fa-users",
+            "icon": "fa",
             "name": "Join Friends",
             "text": "Make sure that you join your friends’ cliques.  Stay up to date with what they are doing."
         }
@@ -109,26 +109,26 @@
         "phone": "+1 385 335 8514",
         "email": "contact@cliquetheapp.com",
         "facebook": "https://www.facebook.com/cliquetheapp-110481197967770/?ref=page_internal",
-        "twitter": "twitter.com",
+        "twitter": "https://twitter.com/Clique_theApp",
         "instagram": "https://www.instagram.com/cliquetheapp/"
     },
     "Features": [{
-            "icon": "fa fa-cart-arrow-down",
+            "icon": "fa center",
             "title": "Social Shopping",
             "text": "Buy your favorite things from your favorite stores with your favorite friends and family members. The new way to shop!"
         },
         {
-            "icon": "fa fa-list",
+            "icon": "fa center right",
             "title": "Wish List",
             "text": "See something you like? Add it to your wish list for your friends and family to buy on your birthday or holiday."
         },
         {
-            "icon": "fa fa-group",
+            "icon": "fa",
             "title": "Rewards",
             "text": "You can do your regular shopping, but get rewarded for it! The more you shop the more chances you will get to win."
         },
         {
-            "icon": "fa fa-user",
+            "icon": "fa center",
             "title": "Clique Profile",
             "text": "Create a profile and join Cliques with your friends. See the wish lists and closets of whoever is in your Clique."
         }

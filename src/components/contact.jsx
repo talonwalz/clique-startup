@@ -131,11 +131,11 @@ export const Contact = (props) => {
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a target="_blank" rel="noreferrer"  href={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
                     </a>
-                  </li> */}
+                  </li>
                   <li>
                     <a target="_blank" rel="noreferrer" href={props.data ? props.data.instagram : '/'}>
                       <i className='fa fa-instagram'></i>
