@@ -39,7 +39,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Our Services</h2>
           <p>
-          Clique is a social shopping platform meant to connect everyone to everything.
+          The new platform. Making online shopping a social event like shopping at a mall. Create a Wishlist, build your closet, shop with friends, and share with others all in the same place.
           </p>
         </div>
         <div className='row'>

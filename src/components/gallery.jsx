@@ -15,7 +15,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/cliqueImgWishlist.jpg'
+                    href='img/portfolio/cliqueImgWishlist2.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -23,7 +23,7 @@ export const Gallery = (props) => {
                       <h4>Create a Wishlist</h4>
                     </div>
                     <img
-                      src='img/portfolio/cliqueImgWishlist.jpg'
+                      src='img/portfolio/cliqueImgWishlist2.jpeg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -36,7 +36,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/cliqueImgShopping.jpg'
+                    href='img/portfolio/cliqueImgShopping1.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -44,7 +44,7 @@ export const Gallery = (props) => {
                       <h4>Shopping Online with Friends</h4>
                     </div>
                     <img
-                      src='img/portfolio/cliqueImgShopping.jpg'
+                      src='img/portfolio/cliqueImgShopping1.jpeg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -57,7 +57,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/cliqueImgMessaging.jpg'
+                    href='img/portfolio/cliqueImgMessaging.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -65,7 +65,7 @@ export const Gallery = (props) => {
                       <h4>Stay Connected with Friends</h4>
                     </div>
                     <img
-                      src='img/portfolio/cliqueImgMessaging.jpg'
+                      src='img/portfolio/cliqueImgMessaging.jpeg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}

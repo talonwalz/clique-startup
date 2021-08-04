@@ -22,6 +22,11 @@ export const Features = (props) => {
         <div className='col-md-10 col-md-offset-1 section-title'>
           <h2>Features</h2>
         </div>
+        <h1 className="noshow">
+            {props.other ? props.other.title : 'Loading'}
+            <span></span>
+        </h1>
+        <p className="header">{props.other ? props.other.paragraph : 'Loading'}</p>
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
