@@ -14,9 +14,9 @@ app.use(express.json());
 app.post('/api/email-us',emailCtrl.emailUs); //endpoint checked :)
 
 // STEP 2 & 3
-// app.use(express.static(__dirname + '/../build'))
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname, '../build/index.html'))
-// })
+app.use(express.static(__dirname + '/../build'))
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'))
+})
 
 app.listen(SERVER_PORT, () => console.log(`Server is running on ${SERVER_PORT}`))
