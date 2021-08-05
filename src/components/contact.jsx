@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import emailjs from 'emailjs-com'
+import { useState } from 'react';
+import axios from 'axios';
+import emailjs from 'emailjs-com';
 
-const YOUR_SERVICE_ID = process.env.YOUR_SERVICE_ID;
-const YOUR_USER_ID = process.env.YOUR_USER_ID;
-const YOUR_TEMPLATE_ID = process.env.YOUR_TEMPLATE_ID;
+
+// const YOUR_SERVICE_ID = process.env.YOUR_SERVICE_ID;
+// const YOUR_USER_ID = process.env.YOUR_USER_ID;
+// const YOUR_TEMPLATE_ID = process.env.YOUR_TEMPLATE_ID;
 
 const initialState = {
   name: '',
@@ -19,23 +21,38 @@ export const Contact = (props) => {
   }
   const clearState = () => setState({ ...initialState })
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
-    emailjs
-      .sendForm(
-        `${YOUR_SERVICE_ID}', '${YOUR_TEMPLATE_ID}', ${e.target}, '${YOUR_USER_ID}`
-      )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
-        }
-      )
+  // const handleSubmit = (e) => {
+  //   e.preventDefault()
+  //   console.log(name, email, message)
+  //   // emailjs.sendForm(
+  //   //     `${YOUR_SERVICE_ID}', '${YOUR_TEMPLATE_ID}', ${e.target}, '${YOUR_USER_ID}`
+  //   //   )
+  //   emailjs.sendForm(
+  //     `gmail', 'template_7nlu4to', ${e.target}, 'user_xEWI2orbMXf48SBIwv08s`
+  //   )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text)
+  //         clearState()
+  //       },
+  //       (error) => {
+  //         console.log(error.text)
+  //       }
+  //     )
+  // }
+
+  function handleSubmit(e) {
+    // const { name, email, message } = e.target
+    axios.post('/api/email-us', { name, email, message })
+    .then( res => {
+      clearState();
+      console.log(res)
+    }).catch(err => console.log(err))
+    
   }
+
+
+
   return (
     <div>
       <div id='contact'>
@@ -44,12 +61,9 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='section-title'>
                 <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                {/* <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p> */}
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              {/* <form name='sentMessage' validate="true" onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -92,14 +106,15 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className='help-block text-danger'></p>
                 </div>
-                <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
+                <div id='success'></div> */}
+                {/* <input type="submit" value="send"/> */}
+                {/* <button type='submit' className='btn btn-custom btn-lg'>
                   Send Message
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
+          <div className='col-md-3 col-md-3 contact-info'>
             <div className='contact-item'>
               <h3>Contact Info</h3>
               {/* <p>

@@ -25,7 +25,7 @@ const posts = <svg xmlns="http://www.w3.org/2000/svg" width="53" height="44" vie
 </svg>;
 
 const joinFriends = <svg xmlns="http://www.w3.org/2000/svg" width="45.026" height="45.538" viewBox="0 0 45.026 45.538">
-<path id="Subtraction_1" data-name="Subtraction 1" d="M19.462,48.538c-.987,0-1.28-1.239-1.282-1.252V39.422H7a2,2,0,0,1-2-2V7A2,2,0,0,1,7,5H46.027a2,2,0,0,1,2,2V37.422a2,2,0,0,1-2,2H31.508c-2.564,2.114-11,9.017-11.921,9.11C19.549,48.535,19.505,48.538,19.462,48.538ZM17.453,19.969v3.925h7.256v7.255h3.925V23.894h7.255V19.969H28.634V12.713H24.709v7.256H17.453Z" transform="translate(-4 -4)" fill="#fff" stroke="#fff" stroke-width="2"/>
+<path id="Subtraction_1" data-name="Subtraction 1" d="M19.462,48.538c-.987,0-1.28-1.239-1.282-1.252V39.422H7a2,2,0,0,1-2-2V7A2,2,0,0,1,7,5H46.027a2,2,0,0,1,2,2V37.422a2,2,0,0,1-2,2H31.508c-2.564,2.114-11,9.017-11.921,9.11C19.549,48.535,19.505,48.538,19.462,48.538ZM17.453,19.969v3.925h7.256v7.255h3.925V23.894h7.255V19.969H28.634V12.713H24.709v7.256H17.453Z" transform="translate(-4 -4)" fill="#fff" stroke="#fff" strokeWidth="2"/>
 </svg>;
 
 const icons = [

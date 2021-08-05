@@ -1,11 +1,8 @@
-import React, {useState} from "react"
+import React from "react"
 
 export const Navigation = (props) => {
 
-  const [ menu, setMenu ] = useState("open");
-  const toggleMenu = () => {
-    setMenu("closed")
-  }
+  
 
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>

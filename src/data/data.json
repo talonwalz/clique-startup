@@ -85,7 +85,7 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
+            "img": "img/team/benji.jpg",
             "name": "Benjamin Plante",
             "job": "Executive Director"
         },
@@ -94,7 +94,7 @@
             "name": "Brady Galloway",
             "job": "Director of Operations"
         }, {
-            "img": "img/team/03.jpg",
+            "img": "img/team/tanner.jpg",
             "name": "Tanner Roberts",
             "job": "Director of Product Development"
         },
