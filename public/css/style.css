@@ -336,6 +336,11 @@ header .intro-text {
 	bottom: 5px;
 }
 
+.small svg {
+	width: 35%;
+	height: auto;
+}
+
 /* About Section */
 #about {
 	padding: 100px 0;

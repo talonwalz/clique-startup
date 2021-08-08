@@ -41,7 +41,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Shopping Online with Friends</h4>
+                      <h4>Shop the hottest trends</h4>
                     </div>
                     <img
                       src='img/portfolio/cliqueImgShopping1.jpeg'
